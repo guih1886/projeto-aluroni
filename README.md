@@ -7,11 +7,10 @@ __Aluroni é um projeto de cardápio de restaurante desenvolvido com React e esc
 > - **Filtrar por categoria dos pratos**
 > - **Ordenar por preço, porção ou serving.**
 
-## Imagens 
-
-![GIF]()
-
 ## Link de acesso
 O projeto está dísponivel através do **[Link do projeto]**
+## Imagens 
 
-   [Link do projeto]: <https://guih1886.github.io/projeto-aluroni/>
+![GIF](/src/assets/img_projeto.jpg "Aluroni")
+
+[Link do projeto]: <https://guih1886.github.io/projeto-aluroni/>
