@@ -1,6 +1,6 @@
-import React from 'react'
-import filtros from './filtros.json'
-import style from './Filtro.module.scss'
+import React from 'react';
+import filtros from './filtros.json';
+import style from './Filtro.module.scss';
 import classNames from 'classnames';
 
 type IOpcao = typeof filtros[0];
@@ -12,7 +12,7 @@ interface Props {
 }
 export default function Filtros({ filtro, setFiltro }: Props) {
     function selecionarFiltro(opcao: IOpcao) {
-        if (filtro === opcao.id) { return setFiltro(null) }
+        if (filtro === opcao.id) { return setFiltro(null); }
         return setFiltro(opcao.id);
     }
     return (
@@ -20,9 +20,9 @@ export default function Filtros({ filtro, setFiltro }: Props) {
             {filtros.map(opcao => (
                 <button className={classNames({
                     [style.filtros__filtro]: true,
-                    [style["filtros__filtro--ativo"]]: filtro === opcao.id
+                    [style['filtros__filtro--ativo']]: filtro === opcao.id
                 })} key={opcao.id} onClick={() => selecionarFiltro(opcao)}>{opcao.label}</button>
             ))}
         </div>
-    )
+    );
 }
