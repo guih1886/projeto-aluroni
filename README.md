@@ -9,7 +9,7 @@
 > - **Ordenar por preço, porção ou serving.**
 > - **Detalhar um prato.**
 
-Utilizado diversos conceitos fundamentais do React como Outlet e Link do router-dom. Hooks do router-dom e do React que foram: useNavigate, useLocation e useParams, além do useState e useEffect.
+Utilizado diversos conceitos fundamentais do React como Outlet e Link do router-dom. Hooks do router-dom e do React que foram usados: useNavigate, useLocation e useParams, além do useState e useEffect.
 
 ## Link de acesso
 
