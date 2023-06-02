@@ -11,9 +11,8 @@
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://github.com/guih1886/projeto-aluroni/blob/main/src/assets/img_projeto1.jpg#vitrinedev)
-![GIF](/src/assets/img_projeto1.jpg "Aluroni")
-![GIF](/src/assets/img_projeto2.jpg "Aluroni")
-![GIF](/src/assets/img_projeto3.jpg "Aluroni")
+![](https://github.com/guih1886/projeto-aluroni/blob/main/src/assets/img_projeto2.jpg#vitrinedev)
+![](https://github.com/guih1886/projeto-aluroni/blob/main/src/assets/img_projeto3.jpg#vitrinedev)
 
 ## Detalhes do projeto
 
