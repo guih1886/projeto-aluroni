@@ -22,3 +22,13 @@ O projeto está dísponivel através do **[Link do projeto]**
 ![GIF](/src/assets/img_projeto3.jpg "Aluroni")
 
 [Link do projeto]: https://guih1886.github.io/projeto-aluroni/
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Projeto Aluroni**
+| :label: Tecnologias | typescript, scss (tecnologias utilizadas)
+| :rocket: URL         | https://guih1886.github.io/projeto-aluroni/
+| :fire: Desafio     | 
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![GIF](/src/assets/img_projeto1.jpg "Aluroni"#vitrinedev)
