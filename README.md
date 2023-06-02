@@ -11,6 +11,9 @@
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![GIF](/src/assets/img_projeto1.jpg "Aluroni")
+![GIF](/src/assets/img_projeto2.jpg "Aluroni")
+![GIF](/src/assets/img_projeto3.jpg "Aluroni")
 
 ## Detalhes do projeto
 
