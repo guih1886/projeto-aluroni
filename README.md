@@ -4,13 +4,13 @@
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
+| :sparkles: Nome        | **Projeto Aluroni**
+| :label: Tecnologias | typescript, scss
 | :rocket: URL         | https://guih1886.github.io/projeto-aluroni/
 | :fire: Desafio     | 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://github.com/guih1886/projeto-aluroni/blob/main/src/assets/img_projeto1.jpg#vitrinedev)
 ![GIF](/src/assets/img_projeto1.jpg "Aluroni")
 ![GIF](/src/assets/img_projeto2.jpg "Aluroni")
 ![GIF](/src/assets/img_projeto3.jpg "Aluroni")
