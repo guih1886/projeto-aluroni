@@ -31,4 +31,4 @@ O projeto está dísponivel através do **[Link do projeto]**
 | :fire: Desafio     | 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![GIF](/src/assets/img_projeto1.jpg "Aluroni"#vitrinedev)
+![IMG](/src/assets/img_projeto1.jpg "Aluroni"#vitrinedev)
