@@ -5,7 +5,7 @@
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Projeto Aluroni**
-| :label: Tecnologias | typescript, scss
+| :label: Tecnologias | typescript, scss, react
 | :rocket: URL         | https://guih1886.github.io/projeto-aluroni/
 | :fire: Desafio     | 
 
