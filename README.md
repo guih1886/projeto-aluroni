@@ -7,7 +7,6 @@ Aluroni é um projeto de cardápio de restaurante desenvolvido com React e escri
 | :sparkles: Nome        | **Projeto Aluroni**
 | :label: Tecnologias | typescript, scss, react
 | :rocket: URL         | https://guih1886.github.io/projeto-aluroni/
-| :fire: Desafio     | https://guih1886.github.io/projeto-aluroni/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://github.com/guih1886/projeto-aluroni/blob/main/src/assets/img_projeto1.jpg#vitrinedev)
