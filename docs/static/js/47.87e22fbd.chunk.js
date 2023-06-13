@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkaluroni=self.webpackChunkaluroni||[]).push([[47,918],{942:function(e,n,u){u.d(n,{Z:function(){return i}});var r=u(142);function i(e,n,u){return(n=(0,r.Z)(n))in e?Object.defineProperty(e,n,{value:u,enumerable:!0,configurable:!0,writable:!0}):e[n]=u,e}}}]);
+//# sourceMappingURL=47.87e22fbd.chunk.js.map
