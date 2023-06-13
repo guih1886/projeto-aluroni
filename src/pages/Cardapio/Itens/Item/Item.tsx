@@ -2,12 +2,13 @@ import TagsPrato from 'Components/TagsPrato/TagsPrato';
 import style from './Item.module.scss';
 import { Prato } from 'types/Types';
 import { useNavigate } from 'react-router-dom';
+import { memo } from 'react';
 
-export default function Item(props: Prato) {
+function Item(props: Prato) {
     const { id, title, description, photo } = props;
     const navigate = useNavigate();
     return (
-        <div className={style.item} onClick={() => navigate(`/prato/${id}`)}>
+        <div className={style.item} onClick={() => navigate(`/projeto-aluroni/prato/${id}`)}>
             <div className={style.item__imagem}>
                 <img src={photo} alt={title} />
             </div>
@@ -21,3 +22,5 @@ export default function Item(props: Prato) {
         </div>
     );
 }
+
+export default memo(Item);

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { memo, useState } from 'react';
 import style from './Ordenador.module.scss';
 import opcao from './opcoes.json';
 import className from 'classnames';
@@ -9,9 +9,10 @@ interface Props {
     setOrdenador: React.Dispatch<React.SetStateAction<string>>
 }
 
-export default function Ordenador({ ordenador, setOrdenador }: Props) {
+function Ordenador({ ordenador, setOrdenador }: Props) {
     const [aberto, setAberto] = useState(false);
     const ordenadorNome = opcao.find(opcao => opcao.value === ordenador)?.nome;
+
     return (
         <button className={className({
             [style.ordenador]: true,
@@ -32,3 +33,5 @@ export default function Ordenador({ ordenador, setOrdenador }: Props) {
         </button>
     );
 }
+
+export default memo(Ordenador);

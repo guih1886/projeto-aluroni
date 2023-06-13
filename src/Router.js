@@ -1,30 +1,32 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Inicio from './pages/Inicio/Inicio';
-import Cardapio from 'pages/Cardapio/Cardapio';
-import NotFound from 'pages/NotFound/NotFound';
 import Menu from 'Components/Menu/Menu';
-import Header from 'Components/Header/Header';
-import Sobre from 'pages/Sobre/Sobre';
 import Footer from 'Components/Footer/Footer';
-import Prato from 'pages/Prato/Prato';
 
+const Cardapio = lazy(() => import('pages/Cardapio/Cardapio'));
+const Header = lazy(() => import('Components/Header/Header'));
+const Inicio = lazy(() => import('pages/Inicio/Inicio'));
+const Sobre = lazy(() => import('pages/Sobre/Sobre'));
+const Prato = lazy(() => import('pages/Prato/Prato'));
+const NotFound = lazy(() => import('pages/NotFound/NotFound'));
 
 export default function AppRouter() {
     return (
         <main className='container'>
             <Router>
                 <Menu />
-                <Routes>
-                    <Route path='/' element={<Header />} >
-                        <Route index element={<Inicio />} />
-                        <Route path='cardapio' element={<Cardapio />} />
-                        <Route path='sobre' element={<Sobre />} />
-                        <Route path='projeto-aluroni' element={<Inicio />} />
-                    </Route>
-                    <Route path='prato/:id' element={<Prato />} />
-                    <Route path='*' element={<NotFound />} />
-                </Routes>
+                <Suspense fallback={<p>carregando.........</p>}>
+                    <Routes>
+                        <Route path='/' element={<Header />} >
+                            <Route index element={<Inicio />} />
+                            <Route path='projeto-aluroni/cardapio' element={<Cardapio />} />
+                            <Route path='projeto-aluroni/sobre' element={<Sobre />} />
+                            <Route path='projeto-aluroni' element={<Inicio />} />
+                        </Route>
+                        <Route path='projeto-aluroni/prato/:id' element={<Prato />} />
+                        <Route path='*' element={<NotFound />} />
+                    </Routes>
+                </Suspense>
                 <Footer />
             </Router>
         </main>
