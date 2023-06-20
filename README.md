@@ -2,7 +2,7 @@
 
 Aluroni é um projeto de cardápio de restaurante desenvolvido com React e escrito em typescript, utilizando SCSS para estilização.
 
-| :placard: Vitrine.Dev |     |
+| :placard: Vitrine.Dev |    Guilherme Henrique    |
 | -------------  | --- |
 | :sparkles: Nome        | **Projeto Aluroni**
 | :label: Tecnologias | typescript, scss, react
